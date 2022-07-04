@@ -1,0 +1,96 @@
+.booking-modal {
+  position: fixed;
+  right: 36px;
+  top: 95px;
+  background: #f2f2f2;
+  padding: 32px;
+  border-radius: 40px;
+  width: 422px;
+  text-align: left;
+  transition: opacity 0.5s ease-in-out;
+}
+.hidden {
+  position: fixed;
+  opacity: 0;
+}
+
+.booking__title {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.form__date {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  background: #ffffff;
+  height: 68px;
+  border-radius: 44px;
+  padding: 0 33px;
+  margin-bottom: 17px;
+}
+.form__date input {
+  border: none;
+}
+.form__date label {
+  color: #989898;
+}
+.form__guests {
+  display: flex;
+  align-items: center;
+  padding: 0 33px;
+  justify-content: space-between;
+  background: #ffffff;
+  height: 68px;
+  border-radius: 44px;
+  margin-bottom: 32px;
+}
+.guests__title {
+  color: #989898;
+}
+
+.form__guests input {
+  border: none;
+}
+
+.modal-services__title {
+  font-size: 18px;
+  margin-bottom: 22px;
+  line-height: 21px;
+  text-align: left;
+}
+.services__list {
+  margin-bottom: 58px;
+}
+
+.services__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+
+.form__total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+.total__title {
+  font-weight: 700;
+}
+.total__price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.form__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 0;
+  width: 100%;
+  background: #1490a8;
+  border-radius: 40px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}

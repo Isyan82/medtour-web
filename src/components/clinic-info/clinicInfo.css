@@ -1,0 +1,32 @@
+.info {
+  text-align: left;
+  width: 845px;
+  margin-bottom: 88px;
+}
+.info__container {
+  padding: 0 32px;
+}
+.info__destination {
+  display: flex;
+  color: rgba(12, 17, 31, 0.6);
+  margin-bottom: 32px;
+}
+
+.info__destination svg {
+  margin-right: 14px;
+}
+
+.info__title {
+  font-size: 48px;
+  line-height: 62px;
+  margin-bottom: 16px;
+}
+.info__description {
+  line-height: 28px;
+  margin-bottom: 13px;
+}
+.info__more {
+  font-weight: 500;
+  text-decoration: none;
+  color: #1490a8;
+}

@@ -1,0 +1,68 @@
+.popular {
+  margin-bottom: 37px;
+}
+.popular__item {
+  width: 264px;
+  min-height: 188px;
+}
+.clinic {
+  text-align: left;
+}
+
+.clinic__image {
+  position: relative;
+}
+.clinic__rating {
+  background: #6fcf97;
+  border-radius: 20px;
+  padding: 3px 11px;
+  line-height: 28px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.popular__price {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(20, 20, 20, 0.5);
+  color: #ffffff;
+  padding: 3px 11px;
+  line-height: 28px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+}
+.clinic__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  padding-left: 9px;
+  margin-bottom: 9px;
+}
+
+.clinic__location {
+  display: flex;
+  align-items: center;
+  padding-right: 23px;
+  padding-left: 12px;
+}
+.clinic__location svg {
+  margin-right: 10px;
+}
+.clinic__location p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #989898;
+}

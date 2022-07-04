@@ -1,0 +1,48 @@
+.doctor {
+  display: flex;
+  margin-bottom: 24px;
+}
+.doctor__description {
+  width: 535px;
+  background: #f7f7f7;
+  border-radius: 0 20px 20px 0;
+  padding: 35px 35px 0 31px;
+}
+.doctor__name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.doctor__speciality {
+  margin-bottom: 29px;
+  color: rgba(12, 17, 31, 0.6);
+}
+.doctor__education {
+  line-height: 28px;
+  color: rgba(12, 17, 31, 0.6);
+  margin-bottom: 40px;
+}
+.doctor__skills {
+  display: flex;
+  justify-content: space-between;
+  max-width: 354px;
+}
+.languages__title {
+  margin-bottom: 12px;
+}
+
+.languages__list {
+  display: flex;
+  justify-content: space-between;
+  width: 123px;
+}
+.languages__item {
+  display: flex;
+}
+.languages__item img {
+  margin-right: 13px;
+}
+
+.experience__title {
+  margin-bottom: 12px;
+}

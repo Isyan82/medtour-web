@@ -1,0 +1,9 @@
+.operations__list {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 46px;
+  margin-left: -27px;
+}
+.operations__list--hidden {
+  display: none;
+}

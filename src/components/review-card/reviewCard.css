@@ -1,0 +1,41 @@
+.review {
+  border: 1px solid #ecf1f7;
+  border-radius: 20px;
+  position: relative;
+  padding: 30px 49px 31px 32px;
+  width: 554px;
+}
+.review__photo {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  background: #ecf1f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -42px;
+  left: 30px;
+}
+.autor {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.autor__name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.autor__location {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.reviews__date {
+  font-size: 16px;
+  color: #989898;
+  margin-bottom: 29px;
+}
+.reviews__text {
+  line-height: 28px;
+}

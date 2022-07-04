@@ -1,0 +1,12 @@
+.best-doctors {
+  text-align: left;
+  margin-bottom: 84px;
+}
+.best-doctors__container {
+  padding: 0 32px;
+}
+.best-doctors__title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 36px;
+}

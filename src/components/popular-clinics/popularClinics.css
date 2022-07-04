@@ -1,0 +1,16 @@
+.popular {
+  margin-top: 84px;
+}
+
+.popular__container {
+  padding: 0 32px;
+}
+.popular__title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.clinic__image {
+  margin-bottom: 13px;
+}

@@ -1,0 +1,139 @@
+.booking-details {
+  padding: 0 32px;
+  padding-right: 70px;
+}
+.booking-details__container {
+  right: 36px;
+  top: 95px;
+  background: #f2f2f2;
+  padding: 32px 32px 12px 32px;
+  border-radius: 40px;
+  text-align: left;
+}
+.booking-details__title {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.booking-details__form {
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  width: 358px;
+  margin-right: 52px;
+}
+.form__date {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  background: #ffffff;
+  height: 68px;
+  border-radius: 44px;
+  padding: 0 33px;
+  margin-bottom: 17px;
+}
+.form__date input {
+  border: none;
+  font-weight: 400;
+  color: #0c111f;
+  font-size: 16px;
+  width: 100px;
+}
+.form__item {
+  position: relative;
+}
+.form__item:first-child:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 32px;
+  background: #bdbdbd;
+  top: 3px;
+  right: 22px;
+}
+
+.form__guests {
+  display: flex;
+  align-items: center;
+  padding: 0 33px;
+  justify-content: space-between;
+  background: #ffffff;
+  height: 68px;
+  border-radius: 44px;
+  margin-bottom: 32px;
+}
+
+.guest__amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 128px;
+}
+.guest__amount-dec {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.guest__amount-inc {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.form__services {
+  margin-right: auto;
+  width: 324px;
+}
+
+.services__title {
+  font-weight: 500;
+  font-size: 26px;
+  margin-top: -63px;
+  margin-bottom: 35px;
+}
+.services__list {
+  margin-bottom: 58px;
+}
+
+.services__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+
+.form__total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+
+.booking-details__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  width: max-content;
+  height: 48px;
+  background: #1490a8;
+  border-radius: 40px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: 19px;
+}
+
+/* .hidden {
+  opacity: 0;
+} */

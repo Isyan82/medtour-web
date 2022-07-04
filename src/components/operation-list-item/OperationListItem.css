@@ -1,0 +1,22 @@
+.operation {
+  width: max-content;
+  padding: 10px 31px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #989898;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-right: 31px;
+  margin-bottom: 13px;
+}
+
+.selected {
+  background: #f2f2f2;
+  border-color: #f2f2f2;
+}
+/* .hidden {
+  display: none;
+} */

@@ -1,0 +1,12 @@
+.back {
+  display: flex;
+  align-items: center;
+}
+.back svg {
+  margin-right: 15px;
+}
+.back a {
+  font-size: 16px;
+  color: rgba(12, 17, 31, 0.6);
+  text-decoration: none;
+}

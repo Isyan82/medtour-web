@@ -1,0 +1,5 @@
+.navigation__container {
+  padding: 42px 36px 32px;
+  display: flex;
+  justify-content: space-between;
+}
